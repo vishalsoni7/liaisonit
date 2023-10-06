@@ -7,7 +7,6 @@ export const AllTasks = () => {
   const {
     taskId,
     setTaskId,
-    user,
     taskState: { allTask, modal },
     taskDispatch,
   } = useContext(TaskContext);
