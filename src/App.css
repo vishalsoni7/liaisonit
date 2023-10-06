@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: #252525;
-  color: whitesmoke;
+  background-color: #002b3f;
+  color: #e5e5e5;
 }
 
 .card-parent {
@@ -15,7 +15,7 @@ body {
   justify-content: flex-start;
   flex-wrap: wrap;
   gap: 0.5rem 2rem;
-  margin: 9rem 2rem 2rem 2rem;
+  margin: 10rem 2rem 2rem 2rem;
 }
 
 .card-div {
@@ -26,7 +26,7 @@ body {
   padding: 1rem;
   margin: 0.4rem 0rem;
   border-radius: 10px;
-  background-color: #606060;
+  background-color: #005f71;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
@@ -48,7 +48,7 @@ body {
   width: 100%;
   position: fixed;
   top: 0;
-  background-color: #252525;
+  background-color: #002b3f;
 }
 
 .all-task-div h1,
@@ -237,4 +237,28 @@ textarea:focus {
   width: 8rem;
   background-color: crimson;
   color: whitesmoke;
+}
+
+@media (max-width: 980px) {
+  .card-div {
+    min-width: 20rem; /* Remove the minimum width */
+    width: 100%; /* Take full width on small screens */
+    margin: 0.4rem 0; /* Adjust margin */
+  }
+
+  .button-add {
+    margin-left: 0;
+  }
+
+  .all-task-div h1 {
+    margin-left: 1rem;
+  }
+
+  .card-parent {
+    margin: 11rem 1rem 1rem 1rem;
+  }
+
+  .modal_outer_container {
+    max-width: 21rem;
+  }
 }
