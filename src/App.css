@@ -241,9 +241,9 @@ textarea:focus {
 
 @media (max-width: 980px) {
   .card-div {
-    min-width: 20rem; /* Remove the minimum width */
-    width: 100%; /* Take full width on small screens */
-    margin: 0.4rem 0; /* Adjust margin */
+    min-width: 20rem;
+    width: 100%;
+    margin: 0.4rem 0;
   }
 
   .button-add {
